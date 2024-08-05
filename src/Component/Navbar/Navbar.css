@@ -1,0 +1,47 @@
+.logo {
+    width:46px;
+    padding: 0px 0px 0px 66px;
+
+
+}
+.Navbar{
+    display: flex;
+    width: auto;
+    height: 60px;
+    
+}
+.social{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap:50rem;
+
+}
+.social ul{
+    display: flex;
+    
+    justify-content: center;
+    list-style: none;
+}
+.social li{
+    margin:  0 1.5rem;
+}
+.socials{
+    width: 15px;
+}
+.socials img{
+    width: 20px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+}
+.socials img:hover{
+    width: 28px;
+    transform: translateY(-0.5rem);
+    transition: all 0.3s ease;
+}
+@media (max-width:600px){
+    .Navbar{
+        width: 50px;
+    }
+}

@@ -1,0 +1,15 @@
+.cont{
+    display: flex;
+    margin:70px 0px 0px 40px;
+    gap:3rem;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.photo{
+    justify-content: center;
+}
+.imges{
+    width: 200px;
+    height: 200px;
+}

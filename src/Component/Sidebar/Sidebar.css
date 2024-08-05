@@ -1,0 +1,37 @@
+.Sidebar{
+    
+    margin: 100px 0px 0px 0px;
+    justify-content:center;
+    /* display: flex; */
+
+    
+}
+.Sidebar ul{
+    padding: 0px;
+}
+.Sidebar li{
+    list-style: none;
+}
+
+.item{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin: 15px 0px 0px 0px;
+    cursor: pointer;
+    border-radius: 100%;
+    outline: 1.5rem solid transparent;
+    
+}
+.item img{
+    width: 20px;
+}
+
+.item:hover{
+    background:#FFB22C;
+    transition: all 0.5s ease;
+    outline: 1.5px  solid #FFB22C;
+}
+

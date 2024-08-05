@@ -1,0 +1,39 @@
+/* .skill-data{
+    width: 100%;
+    height: 100%;
+} */
+.info{
+    display: flex;
+    gap:1rem
+}
+
+.imges{
+    width: 200px;
+    height: 200px;
+}
+.skills-info{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    gap:5px;
+}
+
+.skills-info p{
+    font-size: 1rem;
+    font-weight: 500;
+    width: 170px;
+}
+.data{
+    width: 700px;
+}
+
+
+@media (max-width:1025px){
+    .skills-info-card h6{
+        font-size: 1.1rem;
+    }
+    .skills-info p {
+        font-size: 0.9rem;
+    }
+    
+}

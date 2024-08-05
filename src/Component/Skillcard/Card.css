@@ -1,0 +1,39 @@
+.element{
+    display: flex;
+    gap:5px;
+}
+.lines{
+    width: 5px;
+    height: 35px;
+    background: rgb(240, 242, 181);
+    
+}
+.lines.active{
+    background:#FFB22C;
+}
+.box{
+    justify-content: center;
+    border-radius: 0.3rem;
+    border: 1.5px #FFB22C;
+    align-items: center;
+    /* text-align: center; */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    height: 35px;
+    
+    
+}
+.box:hover{
+    background: #FFB22C;
+}
+.box span{
+    font-size: 1rem;
+    
+}
+.box .title{
+    padding-top: 8px;
+    margin: 0px 0px 0px 8px;
+
+}
+
